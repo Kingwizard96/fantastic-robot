@@ -1,0 +1,54 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+#info-section{
+    padding-top: 15px;
+}
+
+#weather-data{
+    background-color: #c11b63;
+}
+
+.current-city-data{
+    min-height: 300px;
+}
+
+.table-box{
+    background-color:rgb(186, 198, 218);
+}
+
+tr{
+    margin: auto;
+}
+.card{
+    background-color: darkslategrey;
+    margin: 5px;
+    min-height: 300px;
+}
+
+.hero{
+    background: #296271;
+    background: -webkit-linear-gradient(#296271, #43494a);
+}
+
+.title{
+    color: #c11b63;
+}
+
+#submit{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 599px) {
+
+    .column{
+        margin: 2px;
+        padding: 0 20px 0 20px;
+    }
+    .card-content{
+        padding: 20px;
+    }
+}
